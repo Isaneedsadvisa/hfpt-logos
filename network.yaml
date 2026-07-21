@@ -189,140 +189,162 @@ nodes:
   label: test
 - id: 6e6cf2ec-8937-4339-866e-a2a895f9a9eb
   label: 2CA-Braga
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-2cabraga.png
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-2cabraga.png
 - id: a9378f20-f096-4f3a-ad1c-79dd8cd44245
   label: Altice Labs
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-altice.png
+  imageUrlScale: 140
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-altice.png
 - id: 7741b233-c723-44e0-b7dc-285962e2a21b
   label: APDP
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-apdp.png
+  imageUrlScale: 140
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-apdp.png
 - id: 28f6da33-1f02-44d0-a1d2-ba544b08e84a
   label: CCG/ZGDV
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-ccg-zgdv.png
+  imageUrlScale: 81
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-ccg-zgdv.png
 - id: d9f9f1fc-8818-4e7f-be08-7db4ba55c9af
   label: CeNTI
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-centi.png
+  imageUrlScale: 140
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-centi.png
 - id: abcde33b-69ac-49e8-b564-a245844bf6ba
   label: CINTESIS
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-cintesis.png
+  imageUrlScale: 140
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-cintesis.png
 - id: 35ecbc3c-87ea-460f-8154-15a9eebd27e9
   label: CITEVE
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-citeve.png
+  imageUrlScale: 140
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-citeve.png
 - id: b709ca03-aba6-4e4b-b620-bcfa0d038a95
   label: ESEP
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-esep.png
+  imageUrlScale: 140
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-esep.png
 - id: cf55c3a0-7b5c-4707-9604-cdd90ce2c7c3
   label: Everythink
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-everythink.png
+  imageUrlScale: 140
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-everythink.png
 - id: f582f8c7-d401-4939-8c87-9b022979b64f
   label: FCUL
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-fcul.png
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-fcul.png
 - id: ad7816f2-6b8c-4e4a-9103-f902d86cc525
   label: Fraunhofer
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-fraunhofer.png
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-fraunhofer.png
 - id: cb17d1d5-6559-4975-819b-f49cba0f2db8
   label: GLINTT
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-glintt.png
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-glintt.png
 - id: 07bb2ed4-9ff8-447c-a091-13c10db1ae7d
   label: H. São João
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-hsj.png
   color: '#4a90d9'
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-hsj.png
 - id: 0a6e7e71-5987-449c-ad26-f3260d93100e
   label: HSC
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-hsc.png
+  imageUrlScale: 140
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-hsc.png
 - id: fbd574a7-e835-4121-ac1d-47b050ac2d02
   label: INL
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-inl.png
+  imageUrlScale: 140
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-inl.png
 - id: cd652924-6c9c-4fc3-8195-c1471ef65825
   label: ISPUP
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-ispup.png
+  imageUrlScale: 140
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-ispup.png
 - id: 84060d2f-05e3-4b58-b634-9e474a95517b
   label: Medida
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-medida.png
+  imageUrlScale: 140
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-medida.png
 - id: feaefc4d-62ea-4c63-b5f1-974534c03c6b
   label: P5
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-p5.png
+  imageUrlScale: 140
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-p5.png
 - id: 80d0acb1-c11e-4d7c-a2e6-10cfac8733e4
   label: PLUX
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-plux.png
+  imageUrlScale: 140
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-plux.png
 - id: 0cc6579b-af82-4084-8c68-463719efd4ba
   label: INESC TEC
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-inesc-tec.png
+  imageUrlScale: 140
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-inesc-tec.png
 - id: 6a965a16-484c-4245-9928-0294e73ba3f4
   label: ProChild
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-prochild.png
+  imageUrlScale: 140
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-prochild.png
 - id: 0cd42b43-d04f-41c7-afa2-63e9d66c62a9
   label: Speculum
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-speculum.png
+  imageUrlScale: 140
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-speculum.png
 - id: af753653-ea8d-4035-a73f-c78e2172a716
   label: Tintex
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-tintex.png
+  imageUrlScale: 140
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-tintex.png
 - id: 8a60ec6e-0c84-42cd-83a9-55c1c2bcf5b8
   label: VirtualCare
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-virtualcare.png
+  imageUrlScale: 140
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-virtualcare.png
 - id: 6382d234-b257-4429-9308-02304e54600c
   label: WHYMOB
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-whymob.png
+  imageUrlScale: 140
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-whymob.png
 - id: d0c06cba-0895-418c-a30a-6c3db8161719
   label: Wiselife
+  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-wiselife.png
+  imageUrlScale: 140
   types:
   - org
-  imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-wiselife.png
 - id: e92bd147-8ebc-48c7-b867-d838db25c3ef
   label: Agenda HfPT
   description: Agenda mobilizadora Health from Portugal (PRR). Tecnologias para sistemas
     nacionais integrados de saúde.
   imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-hfpt.png
+  imageUrlScale: 140
   types:
   - 780557f1-a75d-4688-b8cf-5e4860433d6c
 - id: 661b896e-c852-462d-beee-7643a9147543
