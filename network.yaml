@@ -448,6 +448,9 @@ nodes:
       - fa7b7f34-e70a-431f-824c-fb61dc8c3941
   - id: f758c5bb-474f-49ec-9588-f075a9e920e7
     label: PPS 4.4.4
+    description: >-
+      Métodos de pseudo-anonimização em dados de saúde — textos, imagens e sinais biológicos. Revisão sistemática de +50
+      algoritmos. 
     types:
       - fa7b7f34-e70a-431f-824c-fb61dc8c3941
     assets:
@@ -473,6 +476,9 @@ nodes:
       - 3569b8cf-8b19-45f1-ad7a-525c60e64679
   - id: c0cdbbed-0223-4679-a7af-bb704ceb10a6
     label: PPS B1.1
+    description: >-
+      Plataforma hospitalar de anonimização e catalogação de dados com IA (OBiBa, ARX, Ollama). Produto disponível.
+      Protótipo, tese e artigo (submetido).
     types:
       - fa7b7f34-e70a-431f-824c-fb61dc8c3941
     assets:
@@ -801,6 +807,38 @@ links:
     from: e92bd147-8ebc-48c7-b867-d838db25c3ef
     to: 661b896e-c852-462d-beee-7643a9147543
     pattern: dashed
+  - id: 05e7afb1-1b47-4a41-9eb1-15b8dff18e8f
+    from: 80d0acb1-c11e-4d7c-a2e6-10cfac8733e4
+    to: a0014ae4-9d21-4f85-a144-4856af240c2a
+    pattern: dotted
+  - id: 0ca1f0d7-784a-4390-bf5e-ac3eb188ac76
+    from: d9f9f1fc-8818-4e7f-be08-7db4ba55c9af
+    to: a0014ae4-9d21-4f85-a144-4856af240c2a
+    pattern: dotted
+  - id: a1a85831-7681-484b-856c-9c7e499c11c4
+    from: cb17d1d5-6559-4975-819b-f49cba0f2db8
+    to: 2fb6ddca-e18d-4a1e-ab38-3ce1847b913a
+    pattern: dotted
+  - id: 792d3023-da32-4127-8217-df8689759923
+    from: abcde33b-69ac-49e8-b564-a245844bf6ba
+    to: 2fb6ddca-e18d-4a1e-ab38-3ce1847b913a
+    pattern: dotted
+  - id: dc046cdd-54dd-48cc-a398-2a462b59cc18
+    from: f582f8c7-d401-4939-8c87-9b022979b64f
+    to: 2fb6ddca-e18d-4a1e-ab38-3ce1847b913a
+    pattern: dotted
+  - id: 68e49dd1-491f-41cd-a9b3-21c62f625eaf
+    from: 8a60ec6e-0c84-42cd-83a9-55c1c2bcf5b8
+    to: 2fb6ddca-e18d-4a1e-ab38-3ce1847b913a
+    pattern: dotted
+  - id: 180604d0-76d4-458a-a7cc-a3a495b40808
+    from: cb17d1d5-6559-4975-819b-f49cba0f2db8
+    to: b6e7e5a1-81fc-4c6b-8013-4ad5956b2404
+    pattern: dotted
+  - id: f285cee3-0c22-45a8-8aec-641bb614fe11
+    from: 8a60ec6e-0c84-42cd-83a9-55c1c2bcf5b8
+    to: cae0904d-9a30-4df8-9f76-09e6459ed447
+    pattern: dotted
 assets:
   - id: asset-report-2024
     label: 2024 Annual Report
