@@ -1,0 +1,475 @@
+{
+  "version": 1,
+  "steps": [
+    {
+      "id": "step-1",
+      "title": "Health from Portugal — visão geral",
+      "viewport": {
+        "x": 1764.4288443191783,
+        "y": 96.84408540734732,
+        "width": 89.54788056011353,
+        "height": 104.47252732013244
+      },
+      "highlightedNodeIds": [
+        "e92bd147-8ebc-48c7-b867-d838db25c3ef",
+        "979ea3f0-26b4-45ee-982e-60741b323359",
+        "6111949c-2d28-4bed-8fb7-490477a2500b",
+        "5aaae21f-5c4d-4e83-b08e-9f45d8350c91",
+        "389debfe-7989-4887-b17c-f2f44606cb78"
+      ],
+      "highlightedLinkIds": [
+        "a93e3427-c565-4602-a816-d327b0ca9420",
+        "90b66768-0fba-469b-935f-32af5d9bcd56",
+        "36af4a9d-3d57-412e-bf3f-3e5fa8c77d2c",
+        "a555c5f2-c5f4-42e8-b546-69c1f328cefb"
+      ],
+      "focusNodeId": "e92bd147-8ebc-48c7-b867-d838db25c3ef",
+      "assetId": null,
+      "transition": "interactive",
+      "duration": 7
+    },
+    {
+      "id": "step-2",
+      "title": "Um consórcio de 26 parceiros, liderado pelo INESC TEC",
+      "viewport": {
+        "x": 1409.968483768729,
+        "y": -76.0330728962052,
+        "width": 810.9058072943615,
+        "height": 161.68367323353834
+      },
+      "highlightedNodeIds": [
+        "e92bd147-8ebc-48c7-b867-d838db25c3ef",
+        "0cc6579b-af82-4084-8c68-463719efd4ba",
+        "80d0acb1-c11e-4d7c-a2e6-10cfac8733e4",
+        "d9f9f1fc-8818-4e7f-be08-7db4ba55c9af",
+        "ad7816f2-6b8c-4e4a-9103-f902d86cc525",
+        "fbd574a7-e835-4121-ac1d-47b050ac2d02",
+        "35ecbc3c-87ea-460f-8154-15a9eebd27e9",
+        "af753653-ea8d-4035-a73f-c78e2172a716",
+        "cb17d1d5-6559-4975-819b-f49cba0f2db8",
+        "a9378f20-f096-4f3a-ad1c-79dd8cd44245",
+        "f582f8c7-d401-4939-8c87-9b022979b64f",
+        "abcde33b-69ac-49e8-b564-a245844bf6ba",
+        "8a60ec6e-0c84-42cd-83a9-55c1c2bcf5b8",
+        "6a965a16-484c-4245-9928-0294e73ba3f4",
+        "b709ca03-aba6-4e4b-b620-bcfa0d038a95",
+        "28f6da33-1f02-44d0-a1d2-ba544b08e84a",
+        "d0c06cba-0895-418c-a30a-6c3db8161719",
+        "cf55c3a0-7b5c-4707-9604-cdd90ce2c7c3",
+        "feaefc4d-62ea-4c63-b5f1-974534c03c6b",
+        "0cd42b43-d04f-41c7-afa2-63e9d66c62a9",
+        "84060d2f-05e3-4b58-b634-9e474a95517b",
+        "6e6cf2ec-8937-4339-866e-a2a895f9a9eb",
+        "cd652924-6c9c-4fc3-8195-c1471ef65825",
+        "0a6e7e71-5987-449c-ad26-f3260d93100e",
+        "7741b233-c723-44e0-b7dc-285962e2a21b",
+        "6382d234-b257-4429-9308-02304e54600c",
+        "07bb2ed4-9ff8-447c-a091-13c10db1ae7d"
+      ],
+      "highlightedLinkIds": [
+        "1576d2cd-0c0b-4b2a-aa45-a9a5c6ac0d30"
+      ],
+      "focusNodeId": "0cc6579b-af82-4084-8c68-463719efd4ba",
+      "assetId": null,
+      "transition": "timed",
+      "duration": 8
+    },
+    {
+      "id": "step-3",
+      "title": "WP3 — Dispositivos e reabilitação",
+      "viewport": {
+        "x": 1329.1266471519598,
+        "y": 191.36684822080048,
+        "width": 95.76648337678807,
+        "height": 492.51334308062445
+      },
+      "highlightedNodeIds": [
+        "979ea3f0-26b4-45ee-982e-60741b323359",
+        "a0014ae4-9d21-4f85-a144-4856af240c2a",
+        "f89c6592-0bbd-460b-8100-4d78731b814e",
+        "80d0acb1-c11e-4d7c-a2e6-10cfac8733e4",
+        "d9f9f1fc-8818-4e7f-be08-7db4ba55c9af"
+      ],
+      "highlightedLinkIds": [
+        "bb8833cb-2e20-438a-a96a-7952fcee95c3",
+        "6dc49fdc-076d-4f22-9231-adb760122562"
+      ],
+      "focusNodeId": "979ea3f0-26b4-45ee-982e-60741b323359",
+      "assetId": null,
+      "transition": "timed",
+      "duration": 8
+    },
+    {
+      "id": "step-3b",
+      "title": "Em foco — Têxtil EMG (3.2.1)",
+      "viewport": {
+        "x": 1342.8075733486437,
+        "y": 402.79934398773526,
+        "width": 67.1609104200852,
+        "height": 84.57299830677385
+      },
+      "highlightedNodeIds": [
+        "a0014ae4-9d21-4f85-a144-4856af240c2a",
+        "979ea3f0-26b4-45ee-982e-60741b323359",
+        "f89c6592-0bbd-460b-8100-4d78731b814e",
+        "80d0acb1-c11e-4d7c-a2e6-10cfac8733e4",
+        "d9f9f1fc-8818-4e7f-be08-7db4ba55c9af"
+      ],
+      "highlightedLinkIds": [
+        "bb8833cb-2e20-438a-a96a-7952fcee95c3",
+        "6dc49fdc-076d-4f22-9231-adb760122562"
+      ],
+      "focusNodeId": "a0014ae4-9d21-4f85-a144-4856af240c2a",
+      "assetId": "1cf2ab6e-cd18-4c88-b271-2268ba588b8c",
+      "transition": "timed",
+      "duration": 8
+    },
+    {
+      "id": "step-4",
+      "title": "WP4 — Dados clínicos e interoperabilidade",
+      "viewport": {
+        "x": 1447.2801006687762,
+        "y": 221.21614174083834,
+        "width": 611.910517160776,
+        "height": 483.8072991372801
+      },
+      "highlightedNodeIds": [
+        "6111949c-2d28-4bed-8fb7-490477a2500b",
+        "25a44db0-416e-440c-98d3-a0de3ee2cfeb",
+        "2fb6ddca-e18d-4a1e-ab38-3ce1847b913a",
+        "cae0904d-9a30-4df8-9f76-09e6459ed447",
+        "6a467d2a-dac0-41e1-88da-10afb4bbf628",
+        "61d8d33e-c1d2-4e2d-bc6c-d7cf65397d71",
+        "415b6367-0e0e-404d-94d1-7a95a49365c2",
+        "b6e7e5a1-81fc-4c6b-8013-4ad5956b2404",
+        "f758c5bb-474f-49ec-9588-f075a9e920e7"
+      ],
+      "highlightedLinkIds": [
+        "299e3aa9-59f8-40d4-801f-aff6cd67bc3e",
+        "052402ff-de78-4097-9abd-67a8e70fe9f9",
+        "04abc09e-82f9-4a51-a2ad-ca4776e582c7",
+        "faa14c94-2aa1-400b-8267-283ab9b10339",
+        "05fc67ff-50f4-4b0c-a602-5c9e636b7a3f",
+        "3d3bf0db-2ff3-4041-a08d-a78ecb395768",
+        "ed1f97ef-9b60-4c04-8e62-b9ef04da1146",
+        "c2d5ea03-5870-4a7e-b48e-0083afd8d1a5"
+      ],
+      "focusNodeId": "6111949c-2d28-4bed-8fb7-490477a2500b",
+      "assetId": null,
+      "transition": "timed",
+      "duration": 8
+    },
+    {
+      "id": "step-5",
+      "title": "Em foco — Repositório clínico FHIR (4.1.1)",
+      "viewport": {
+        "x": 1447.2801006687762,
+        "y": 348.0756392009992,
+        "width": 82.08555718010416,
+        "height": 111.93485070014191
+      },
+      "highlightedNodeIds": [
+        "25a44db0-416e-440c-98d3-a0de3ee2cfeb",
+        "6111949c-2d28-4bed-8fb7-490477a2500b",
+        "d1263d3a-c6a6-4084-8909-e522c3face31",
+        "702c395b-189f-4f6f-935a-61fe85e2ee42",
+        "0dd955d6-b0de-4b32-8de3-1f157658b46f"
+      ],
+      "highlightedLinkIds": [
+        "299e3aa9-59f8-40d4-801f-aff6cd67bc3e",
+        "fd6bcec3-249b-4114-8425-d351ed214976",
+        "ed269862-fe43-49d6-834c-0c5289761a9f",
+        "08051829-eb7c-4292-8c8a-c055f0c5bd5e"
+      ],
+      "focusNodeId": "25a44db0-416e-440c-98d3-a0de3ee2cfeb",
+      "assetId": null,
+      "transition": "timed",
+      "duration": 8
+    },
+    {
+      "id": "step-5b",
+      "title": "Em foco — Motor de catálogos (4.1.4)",
+      "viewport": {
+        "x": 1533.096819538885,
+        "y": 359.26912427101337,
+        "width": 55.967425350070926,
+        "height": 94.5227628134532
+      },
+      "highlightedNodeIds": [
+        "2fb6ddca-e18d-4a1e-ab38-3ce1847b913a",
+        "6111949c-2d28-4bed-8fb7-490477a2500b",
+        "702c395b-189f-4f6f-935a-61fe85e2ee42",
+        "0dd955d6-b0de-4b32-8de3-1f157658b46f",
+        "cb17d1d5-6559-4975-819b-f49cba0f2db8",
+        "f582f8c7-d401-4939-8c87-9b022979b64f",
+        "abcde33b-69ac-49e8-b564-a245844bf6ba",
+        "8a60ec6e-0c84-42cd-83a9-55c1c2bcf5b8"
+      ],
+      "highlightedLinkIds": [
+        "052402ff-de78-4097-9abd-67a8e70fe9f9",
+        "12469c48-c09c-4213-986d-2f19ef0dec6e",
+        "0f86f519-26ec-444a-bd84-66f313d02465"
+      ],
+      "focusNodeId": "2fb6ddca-e18d-4a1e-ab38-3ce1847b913a",
+      "assetId": null,
+      "transition": "timed",
+      "duration": 8
+    },
+    {
+      "id": "step-5c",
+      "title": "Em foco — Servidor de terminologias (4.2.2)",
+      "viewport": {
+        "x": 1610.2074944656495,
+        "y": 365.4877270876879,
+        "width": 67.1609104200852,
+        "height": 82.0855571801041
+      },
+      "highlightedNodeIds": [
+        "cae0904d-9a30-4df8-9f76-09e6459ed447",
+        "6111949c-2d28-4bed-8fb7-490477a2500b",
+        "702c395b-189f-4f6f-935a-61fe85e2ee42",
+        "0dd955d6-b0de-4b32-8de3-1f157658b46f",
+        "8a60ec6e-0c84-42cd-83a9-55c1c2bcf5b8"
+      ],
+      "highlightedLinkIds": [
+        "04abc09e-82f9-4a51-a2ad-ca4776e582c7",
+        "63fdbbd9-c74a-45a4-9a96-164116cbd198",
+        "f94d8dbd-08af-451f-870c-01761bf63f31"
+      ],
+      "focusNodeId": "cae0904d-9a30-4df8-9f76-09e6459ed447",
+      "assetId": "5259808c-6071-4b58-bf7b-1c5df4578914",
+      "transition": "timed",
+      "duration": 8
+    },
+    {
+      "id": "step-5d",
+      "title": "Em foco — Motor de sumarização clínica (4.3.1)",
+      "viewport": {
+        "x": 1687.318169392414,
+        "y": 366.73144765102285,
+        "width": 60.942307603410654,
+        "height": 84.57299830677391
+      },
+      "highlightedNodeIds": [
+        "6a467d2a-dac0-41e1-88da-10afb4bbf628",
+        "6111949c-2d28-4bed-8fb7-490477a2500b",
+        "2d0e4d30-da2a-4fd4-bc40-fba257fbd70c"
+      ],
+      "highlightedLinkIds": [
+        "faa14c94-2aa1-400b-8267-283ab9b10339",
+        "e9ecaef9-f973-4f1f-bf75-e0be0d618409"
+      ],
+      "focusNodeId": "6a467d2a-dac0-41e1-88da-10afb4bbf628",
+      "assetId": null,
+      "transition": "timed",
+      "duration": 8
+    },
+    {
+      "id": "step-5e",
+      "title": "Em foco — Framework de dashboards (4.3.3)",
+      "viewport": {
+        "x": 1760.6976826291736,
+        "y": 366.73144765102285,
+        "width": 64.67346929341534,
+        "height": 90.79160112344846
+      },
+      "highlightedNodeIds": [
+        "61d8d33e-c1d2-4e2d-bc6c-d7cf65397d71",
+        "6111949c-2d28-4bed-8fb7-490477a2500b",
+        "2d0e4d30-da2a-4fd4-bc40-fba257fbd70c"
+      ],
+      "highlightedLinkIds": [
+        "05fc67ff-50f4-4b0c-a602-5c9e636b7a3f",
+        "b3cb15d3-ae9a-4ade-8d14-cc8b1d48fd1c"
+      ],
+      "focusNodeId": "61d8d33e-c1d2-4e2d-bc6c-d7cf65397d71",
+      "assetId": null,
+      "transition": "timed",
+      "duration": 8
+    },
+    {
+      "id": "step-6",
+      "title": "Em foco — Cibersegurança na saúde (4.4.1)",
+      "viewport": {
+        "x": 1835.5988636667369,
+        "y": 372.3713841702989,
+        "width": 61.49089262226721,
+        "height": 92.2363389334007
+      },
+      "highlightedNodeIds": [
+        "415b6367-0e0e-404d-94d1-7a95a49365c2",
+        "6111949c-2d28-4bed-8fb7-490477a2500b",
+        "07c679a6-97c2-4257-82f9-b944afdedc77"
+      ],
+      "highlightedLinkIds": [
+        "3d3bf0db-2ff3-4041-a08d-a78ecb395768",
+        "3ed6bd68-3a13-42d7-87e4-65e94b7df4e1"
+      ],
+      "focusNodeId": "415b6367-0e0e-404d-94d1-7a95a49365c2",
+      "assetId": "4ded2e0b-25c1-41a4-bd95-11dc72fb11ac",
+      "transition": "timed",
+      "duration": 8
+    },
+    {
+      "id": "step-6b",
+      "title": "Em foco — Gestor de consentimento (4.4.2)",
+      "viewport": {
+        "x": 1907.9787685241972,
+        "y": 376.21456495919057,
+        "width": 58.928772096339344,
+        "height": 82.62838696117149
+      },
+      "highlightedNodeIds": [
+        "b6e7e5a1-81fc-4c6b-8013-4ad5956b2404",
+        "6111949c-2d28-4bed-8fb7-490477a2500b",
+        "07c679a6-97c2-4257-82f9-b944afdedc77",
+        "cb17d1d5-6559-4975-819b-f49cba0f2db8"
+      ],
+      "highlightedLinkIds": [
+        "ed1f97ef-9b60-4c04-8e62-b9ef04da1146",
+        "d11d3ee4-8d99-48a3-a0e3-dc101baae1db"
+      ],
+      "focusNodeId": "b6e7e5a1-81fc-4c6b-8013-4ad5956b2404",
+      "assetId": null,
+      "transition": "timed",
+      "duration": 8
+    },
+    {
+      "id": "step-6c",
+      "title": "Em foco — Motores de pseudo-anonimização (4.4.4)",
+      "viewport": {
+        "x": 1977.1560227242478,
+        "y": 381.33880601104613,
+        "width": 60.209832359303164,
+        "height": 85.83103761858126
+      },
+      "highlightedNodeIds": [
+        "f758c5bb-474f-49ec-9588-f075a9e920e7",
+        "6111949c-2d28-4bed-8fb7-490477a2500b",
+        "07c679a6-97c2-4257-82f9-b944afdedc77"
+      ],
+      "highlightedLinkIds": [
+        "c2d5ea03-5870-4a7e-b48e-0083afd8d1a5",
+        "e4d22ef1-fcaa-4f1d-95b8-44e59f886197"
+      ],
+      "focusNodeId": "f758c5bb-474f-49ec-9588-f075a9e920e7",
+      "assetId": "22ccac5c-8cd6-4b99-a3ed-fa10f39a457b",
+      "transition": "timed",
+      "duration": 8
+    },
+    {
+      "id": "step-7",
+      "title": "WP6 — As pessoas no centro do SNS",
+      "viewport": {
+        "x": 2076.3509699089454,
+        "y": 247.37778420534215,
+        "width": 136.0552335965681,
+        "height": 447.93569214870075
+      },
+      "highlightedNodeIds": [
+        "5aaae21f-5c4d-4e83-b08e-9f45d8350c91",
+        "4386e33a-a3a4-41b8-b72e-2f2b9ad09c0c",
+        "5a122647-9f8d-40fe-90d9-40c18903466f",
+        "a2aff47d-8114-4cf5-a4ff-152a81d5b8d6",
+        "702c395b-189f-4f6f-935a-61fe85e2ee42"
+      ],
+      "highlightedLinkIds": [
+        "d9904f0f-6929-4be3-8869-732f2544469a",
+        "3537b314-a9ba-4f4b-b53c-af09b38ea94c",
+        "3af929d4-ad45-4f7b-b203-17617c9ad077",
+        "7f6d229f-5e00-4d38-96fa-4a1e417ef431"
+      ],
+      "focusNodeId": "5aaae21f-5c4d-4e83-b08e-9f45d8350c91",
+      "assetId": null,
+      "transition": "timed",
+      "duration": 8
+    },
+    {
+      "id": "step-7b",
+      "title": "Em foco — Health for People (6.1)",
+      "viewport": {
+        "x": 2076.3509699089454,
+        "y": 379.24670292201574,
+        "width": 64.88788063836319,
+        "height": 87.91261247778237
+      },
+      "highlightedNodeIds": [
+        "4386e33a-a3a4-41b8-b72e-2f2b9ad09c0c",
+        "5aaae21f-5c4d-4e83-b08e-9f45d8350c91",
+        "a2aff47d-8114-4cf5-a4ff-152a81d5b8d6"
+      ],
+      "highlightedLinkIds": [
+        "d9904f0f-6929-4be3-8869-732f2544469a",
+        "3af929d4-ad45-4f7b-b203-17617c9ad077"
+      ],
+      "focusNodeId": "4386e33a-a3a4-41b8-b72e-2f2b9ad09c0c",
+      "assetId": null,
+      "transition": "timed",
+      "duration": 8
+    },
+    {
+      "id": "step-7c",
+      "title": "Em foco — City Lab: Saúde Comunitária (6.3)",
+      "viewport": {
+        "x": 2144.3785867072297,
+        "y": 380.2932816419893,
+        "width": 69.07419551825751,
+        "height": 88.95919119775601
+      },
+      "highlightedNodeIds": [
+        "5a122647-9f8d-40fe-90d9-40c18903466f",
+        "5aaae21f-5c4d-4e83-b08e-9f45d8350c91",
+        "702c395b-189f-4f6f-935a-61fe85e2ee42"
+      ],
+      "highlightedLinkIds": [
+        "3537b314-a9ba-4f4b-b53c-af09b38ea94c",
+        "7f6d229f-5e00-4d38-96fa-4a1e417ef431"
+      ],
+      "focusNodeId": "5a122647-9f8d-40fe-90d9-40c18903466f",
+      "assetId": "78b08d4f-2c3d-4505-b40a-94ee7e0029d0",
+      "transition": "timed",
+      "duration": 8
+    },
+    {
+      "id": "step-1784555490407",
+      "title": "WP B1 — ",
+      "viewport": {
+        "x": 2274.154347983956,
+        "y": 201.32832052650377,
+        "width": 87.9126124777822,
+        "height": 505.49752174724875
+      },
+      "highlightedNodeIds": [],
+      "highlightedLinkIds": [],
+      "focusNodeId": "389debfe-7989-4887-b17c-f2f44606cb78",
+      "assetId": null,
+      "transition": "timed",
+      "duration": 8
+    },
+    {
+      "id": "step-8",
+      "title": "Em foco — Plataforma AskWhy (B1.1)",
+      "viewport": {
+        "x": 2289.8530287835597,
+        "y": 372.96723060217414,
+        "width": 60.70156575846886,
+        "height": 93.1455060776504
+      },
+      "highlightedNodeIds": [
+        "c0cdbbed-0223-4679-a7af-bb704ceb10a6",
+        "389debfe-7989-4887-b17c-f2f44606cb78",
+        "702c395b-189f-4f6f-935a-61fe85e2ee42",
+        "a5dd45e6-1d01-4d85-85d0-4a10ab1f6ab9"
+      ],
+      "highlightedLinkIds": [
+        "397324f4-cec8-4ab6-a925-da1139d26f55",
+        "9055f542-927e-48fa-9d15-eac84af0d613",
+        "6b93a11b-d68a-4544-b395-e82efcceb0ad"
+      ],
+      "focusNodeId": "c0cdbbed-0223-4679-a7af-bb704ceb10a6",
+      "assetId": "0ca036b7-fd6c-4c23-8d21-41e6c9e86fd7",
+      "transition": "timed",
+      "duration": 8
+    }
+  ]
+}
