@@ -7,198 +7,29 @@ types:
     description: An organizational unit
     backgroundColor: '#4a90d9'
     shape: square
-    children:
-      - id: dept
-        label: Department
-        description: A department within the organization
-        backgroundColor: '#16a085'
-        shape: square
-      - id: team
-        label: Team
-        description: A sub-team or working group
-        backgroundColor: '#2a6ab7'
-        shape: square
+    shapeSize: 140
   - id: person
-    label: Person
+    label: Pessoa
     description: An individual contributor
-    backgroundColor: '#2ecc71'
+    backgroundColor: '#d999f5'
     shape: circle
-    shapeSize: 84
-    children:
-      - id: lead
-        label: Lead
-        description: A team or project lead
-        backgroundColor: '#27ae60'
-        shape: circle
-        shapeSize: 120
-  - id: project
-    label: Project
-    description: A project or initiative
-    backgroundColor: '#e67e22'
-    shape: prism
-    children:
-      - id: 60b7776a-a5c1-4aa6-84a2-64444463b27b
-        label: H2020
-        backgroundColor: '#4a90d9'
-        shape: circle
-      - id: 5f9b54c9-0897-4da8-a56e-02ca7b06514e
-        label: FCT
-        backgroundColor: '#4a90d9'
-        shape: circle
-  - id: event
-    label: Event
-    description: A milestone, meeting, or event
-    backgroundColor: '#9b59b6'
-    shape: triangle
+    shapeSize: 90
   - id: 65549ed7-0dc4-4577-8431-b17d3d571911
     label: Work Package
-    backgroundColor: '#f39c12'
+    backgroundColor: '#e67e22'
     shape: triangle
     shapeSize: 120
     children:
       - id: fa7b7f34-e70a-431f-824c-fb61dc8c3941
         label: PPS
-        backgroundColor: '#00bcd4'
+        backgroundColor: '#5cb6ff'
         shape: prism
   - id: 780557f1-a75d-4688-b8cf-5e4860433d6c
     label: 'Agenda '
     backgroundColor: '#0f059c'
     shape: circle
     shapeSize: 140
-  - id: cea4ca84-adef-4a21-9053-fc8507be67b0
-    label: New Type
-    backgroundColor: '#4a90d9'
-    shape: circle
-  - id: 48a64f3a-9029-4aa4-bc79-777719db4cc3
-    label: New Type
-    backgroundColor: '#4a90d9'
-    shape: circle
 nodes:
-  - id: acme-corp
-    label: ACME Corp
-    description: The main organization — a fictional technology company founded in 2010.
-    imageUrl: >-
-      https://images.unsplash.com/photo-1541754133541-1183bff921c8?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    types:
-      - org
-    assets:
-      - asset-org-site
-      - asset-report-2024
-  - id: engineering
-    label: Engineering
-    description: The engineering department responsible for all technical products.
-    imageUrl: >-
-      https://images.unsplash.com/photo-1592659762303-90081d34b277?q=80&w=1373&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    imageUrlScale: 78
-    types:
-      - dept
-      - person
-      - project
-  - id: product
-    label: Product
-    description: The product management and design department.
-    imageUrl: >-
-      https://images.unsplash.com/photo-1602785157071-103d66e87cfc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8
-    imageUrlScale: 79
-    types:
-      - dept
-  - id: research
-    label: Research
-    description: Applied research and innovation lab.
-    imageUrl: >-
-      https://images.unsplash.com/photo-1537202108838-e7072bad1927?q=80&w=746&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    imageUrlScale: 63
-    types:
-      - dept
-  - id: backend-team
-    label: Backend Team
-    description: Builds and maintains backend services and APIs.
-    imageUrl: >-
-      https://images.unsplash.com/photo-1608452964553-9b4d97b2752f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    types:
-      - team
-  - id: frontend-team
-    label: Frontend Team
-    description: Builds the user-facing web and mobile interfaces.
-    imageUrl: >-
-      https://images.unsplash.com/photo-1627398242454-45a1465c2479?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    types:
-      - team
-  - id: alice
-    label: Alice Chen
-    description: CTO and co-founder. Leads engineering strategy.
-    imageUrl: >-
-      https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=761&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    imageUrlScale: 87
-    color: '#2ecc71'
-    types:
-      - lead
-      - person
-    assets:
-      - asset-team-photo
-  - id: bob
-    label: Bob Martinez
-    description: Senior backend engineer with a focus on distributed systems.
-    imageUrl: >-
-      https://images.unsplash.com/photo-1548898821-d756a2e30bdf?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    imageUrlScale: 60
-    types:
-      - person
-  - id: carol
-    label: Carol Singh
-    description: Product manager overseeing the core platform.
-    imageUrl: >-
-      https://images.unsplash.com/photo-1730500983837-76e4ed2262cd?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    imageUrlScale: 67
-    color: '#607d8b'
-    types:
-      - person
-  - id: dave
-    label: Dave Kim
-    description: Frontend lead, specializing in React and accessibility.
-    imageUrl: >-
-      https://images.unsplash.com/photo-1758600431229-191932ccee81?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    imageUrlScale: 60
-    color: '#607d8b'
-    types:
-      - lead
-      - person
-  - id: project-atlas
-    label: Project Atlas
-    description: A major platform rebuild targeting scalability and international expansion.
-    imageUrl: >-
-      https://images.unsplash.com/photo-1774249904451-ba46beafcb5b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    imageUrlScale: 60
-    types:
-      - project
-      - 60b7776a-a5c1-4aa6-84a2-64444463b27b
-    assets:
-      - 70f9677f-ba44-43f5-b306-c00cf48749c5
-  - id: project-beacon
-    label: Project Waterfall
-    description: A new real-time notification and alerting system.
-    imageUrl: >-
-      https://images.unsplash.com/photo-1527022206739-2c7edca55829?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    imageUrlScale: 76
-    color: '#607d8b'
-    types:
-      - project
-      - 5f9b54c9-0897-4da8-a56e-02ca7b06514e
-  - id: kickoff-2024
-    label: Kickoff 2024
-    description: Annual company kickoff meeting held in January 2024. All hands on deck.
-    imageUrl: >-
-      https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    types:
-      - event
-  - id: release-v3
-    label: Release v3.0
-    description: Major product version release. Public launch milestone.
-    imageUrl: >-
-      https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    color: '#efaf76'
-    types:
-      - event
   - id: 84802ade-5f49-4441-bee3-7d35c91654ff
     label: test
   - id: 6e6cf2ec-8937-4339-866e-a2a895f9a9eb
@@ -257,21 +88,25 @@ nodes:
   - id: f582f8c7-d401-4939-8c87-9b022979b64f
     label: FCUL
     imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-fcul.png
+    imageUrlScale: 140
     types:
       - org
   - id: ad7816f2-6b8c-4e4a-9103-f902d86cc525
     label: Fraunhofer
     imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-fraunhofer.png
+    imageUrlScale: 140
     types:
       - org
   - id: cb17d1d5-6559-4975-819b-f49cba0f2db8
     label: GLINTT
     imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-glintt.png
+    imageUrlScale: 140
     types:
       - org
   - id: 07bb2ed4-9ff8-447c-a091-13c10db1ae7d
     label: H. São João
     imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-hsj.png
+    imageUrlScale: 140
     color: '#4a90d9'
     types:
       - org
@@ -358,32 +193,35 @@ nodes:
     description: Agenda mobilizadora Health from Portugal (PRR). Tecnologias para sistemas nacionais integrados de saúde.
     imageUrl: https://raw.githubusercontent.com/Isaneedsadvisa/hfpt-logos/main/inst-hfpt.png
     imageUrlScale: 140
+    color: '#1a237e'
     types:
       - 780557f1-a75d-4688-b8cf-5e4860433d6c
   - id: 661b896e-c852-462d-beee-7643a9147543
     label: HumanISE
-    types:
-      - dept
   - id: 979ea3f0-26b4-45ee-982e-60741b323359
     label: WP 3
     description: |+
       Dispositivos vestíveis e soluções para reabilitação neuromuscular.
 
+    color: '#FF6200'
     types:
       - 65549ed7-0dc4-4577-8431-b17d3d571911
   - id: 6111949c-2d28-4bed-8fb7-490477a2500b
     label: WP 4
     description: Repositórios, terminologias, sumarização, dashboards e cibersegurança em saúde.
+    color: '#2B41B1'
     types:
       - 65549ed7-0dc4-4577-8431-b17d3d571911
   - id: 5aaae21f-5c4d-4e83-b08e-9f45d8350c91
     label: WP 6
     description: Modelos para sistemas nacionais integrados de saúde, com foco no cidadão.
+    color: '#2EB62C'
     types:
       - 65549ed7-0dc4-4577-8431-b17d3d571911
   - id: 389debfe-7989-4887-b17c-f2f44606cb78
     label: WP B1
     description: Plataforma hospitalar de gestão e análise de dados com apoio de IA.
+    color: '#EF87BE'
     types:
       - 65549ed7-0dc4-4577-8431-b17d3d571911
   - id: a0014ae4-9d21-4f85-a144-4856af240c2a
@@ -391,6 +229,7 @@ nodes:
     description: >-
       Têxtil vestível com eletromiografia de alta densidade para reabilitação neuromuscular. TRL7. Software LEADER (EMG
       Data Explorer).
+    color: '#FD9346'
     types:
       - fa7b7f34-e70a-431f-824c-fb61dc8c3941
     assets:
@@ -401,6 +240,7 @@ nodes:
   - id: 25a44db0-416e-440c-98d3-a0de3ee2cfeb
     label: PPS 4.1.1
     description: Repositório interoperável baseado em FHIR R4 para intercâmbio de dados clínicos. TRL6. Protótipo de software.
+    color: '#1895DC'
     types:
       - fa7b7f34-e70a-431f-824c-fb61dc8c3941
   - id: 2fb6ddca-e18d-4a1e-ab38-3ce1847b913a
@@ -408,6 +248,7 @@ nodes:
     description: >-
       Geração automática de catálogos e metadados (base OpenMetadata), com glossários clínicos. TRL8. Protótipo
       validado.
+    color: '#1895DC'
     types:
       - fa7b7f34-e70a-431f-824c-fb61dc8c3941
   - id: cae0904d-9a30-4df8-9f76-09e6459ed447
@@ -415,6 +256,7 @@ nodes:
     description: >-
       Integração semântica de dados clínicos com ontologias de saúde. TRL8 — produto disponível. 2 artigos e 2 teses de
       mestrado.
+    color: '#1895DC'
     types:
       - fa7b7f34-e70a-431f-824c-fb61dc8c3941
     assets:
@@ -424,11 +266,13 @@ nodes:
   - id: 6a467d2a-dac0-41e1-88da-10afb4bbf628
     label: PPS 4.3.1
     description: Sumarização de dados clínicos adaptada ao papel do profissional e ao contexto de cuidado.
+    color: '#1895DC'
     types:
       - fa7b7f34-e70a-431f-824c-fb61dc8c3941
   - id: 61d8d33e-c1d2-4e2d-bc6c-d7cf65397d71
     label: PPS 4.3.3
     description: Dashboards e timelines clínicas que integram e visualizam dados de saúde. TRL8. Protótipo de software.
+    color: '#1895DC'
     types:
       - fa7b7f34-e70a-431f-824c-fb61dc8c3941
   - id: 415b6367-0e0e-404d-94d1-7a95a49365c2
@@ -436,6 +280,7 @@ nodes:
     description: >-
       Guia de cibersegurança essencial (58 pontos) para entidades de saúde. Inquérito a entidades e 51 guidelines
       internacionais.
+    color: '#1895DC'
     types:
       - fa7b7f34-e70a-431f-824c-fb61dc8c3941
     assets:
@@ -444,6 +289,7 @@ nodes:
   - id: b6e7e5a1-81fc-4c6b-8013-4ad5956b2404
     label: PPS 4.4.2
     description: Plataforma de gestão de consentimentos de utentes para investigadores e DPO. Protótipo de software e demos.
+    color: '#1895DC'
     types:
       - fa7b7f34-e70a-431f-824c-fb61dc8c3941
   - id: f758c5bb-474f-49ec-9588-f075a9e920e7
@@ -451,6 +297,7 @@ nodes:
     description: >-
       Métodos de pseudo-anonimização em dados de saúde — textos, imagens e sinais biológicos. Revisão sistemática de +50
       algoritmos. 
+    color: '#1895DC'
     types:
       - fa7b7f34-e70a-431f-824c-fb61dc8c3941
     assets:
@@ -461,6 +308,7 @@ nodes:
     description: >-
       Design research centrado no utilizador para sistemas nacionais integrados de saúde. Mais de 50 entrevistas, mais
       de 100 questionários, workshop de ideação e artigo (em submissão).
+    color: '#83D475'
     types:
       - fa7b7f34-e70a-431f-824c-fb61dc8c3941
   - id: 5a122647-9f8d-40fe-90d9-40c18903466f
@@ -468,6 +316,7 @@ nodes:
     description: >-
       Plataforma de dashboards de planeamento em saúde (ETL) e protótipo de chatbot com LLM para rastreio em saúde
       mental. Protótipo de software.
+    color: '#83D475'
     types:
       - fa7b7f34-e70a-431f-824c-fb61dc8c3941
     assets:
@@ -479,6 +328,7 @@ nodes:
     description: >-
       Plataforma hospitalar de anonimização e catalogação de dados com IA (OBiBa, ARX, Ollama). Produto disponível.
       Protótipo, tese e artigo (submetido).
+    color: '#FCBCD7'
     types:
       - fa7b7f34-e70a-431f-824c-fb61dc8c3941
     assets:
@@ -490,313 +340,282 @@ nodes:
     imageUrlScale: 140
     types:
       - person
-      - lead
   - id: d1263d3a-c6a6-4084-8909-e522c3face31
     label: Artur
     imageUrl: >-
       https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=761&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
     types:
       - person
-      - lead
   - id: 0dd955d6-b0de-4b32-8de3-1f157658b46f
     label: Mafalda
     imageUrl: >-
       https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=761&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
     types:
       - person
-      - lead
   - id: 2d0e4d30-da2a-4fd4-bc40-fba257fbd70c
     label: Fernando
     imageUrl: >-
       https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=761&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
     types:
       - person
-      - lead
   - id: 702c395b-189f-4f6f-935a-61fe85e2ee42
     label: Gonçalo
     imageUrl: >-
       https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=761&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
     types:
       - person
-      - lead
   - id: 07c679a6-97c2-4257-82f9-b944afdedc77
     label: Filipe
     imageUrl: >-
       https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=761&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
     types:
       - person
-      - lead
   - id: a2aff47d-8114-4cf5-a4ff-152a81d5b8d6
     label: Maria
     imageUrl: >-
       https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=761&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
     types:
       - person
-      - lead
   - id: a5dd45e6-1d01-4d85-85d0-4a10ab1f6ab9
     label: Rui Ramos
     imageUrl: >-
       https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=761&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
     types:
       - person
-      - lead
 links:
-  - id: l-acme-eng
-    from: acme-corp
-    to: engineering
-    label: has department
-    arrowType: right
-  - id: l-acme-product
-    from: acme-corp
-    to: product
-    label: has department
-    arrowType: right
-  - id: l-acme-research
-    from: acme-corp
-    to: research
-    label: has department
-    arrowType: right
-  - id: l-eng-backend
-    from: engineering
-    to: backend-team
-    label: contains
-    arrowType: right
-  - id: l-eng-frontend
-    from: engineering
-    to: frontend-team
-    label: contains
-    arrowType: right
-  - id: l-alice-eng
-    from: alice
-    to: engineering
-    label: lead by
-    color: '#27ae60'
-    arrowType: left
-  - id: l-bob-backend
-    from: bob
-    to: backend-team
-    label: member of
-    thickness: 1.5
-    opacity: 1
-    arrowType: right
-  - id: l-dave-frontend
-    from: dave
-    to: frontend-team
-    label: leads
-    arrowType: right
-  - id: l-carol-product
-    from: carol
-    to: product
-    label: leads
-    arrowType: right
-  - id: l-bob-atlas
-    from: bob
-    to: project-atlas
-    label: contributor
-    arrowType: right
-  - id: l-alice-atlas
-    from: alice
-    to: project-atlas
-    label: sponsor
-    description: this is the description for sponsorship
-    thickness: 3
-    arrowType: right
-  - id: l-dave-beacon
-    from: dave
-    to: project-beacon
-    label: lead dev
-    arrowType: right
-  - id: l-carol-beacon
-    from: carol
-    to: project-beacon
-    label: product owner
-    arrowType: right
-  - id: l-atlas-release
-    from: project-atlas
-    to: release-v3
-    label: targets
-    pattern: dashed
-    arrowType: right
-  - id: l-kickoff-atlas
-    from: kickoff-2024
-    to: project-atlas
-    label: launched
-    arrowType: right
-  - id: l-alice-bob
-    from: alice
-    to: bob
-    label: mentors
-    color: '#607d8b'
-    pattern: dotted
-    arrowType: right
-  - id: 73305337-bffb-4229-97aa-b3b6650ad742
-    from: carol
-    to: dave
-    label: mentors
-    color: '#607d8b'
-    pattern: dotted
-    arrowType: right
-  - id: bc1da10a-c1e7-4376-8986-fbd709c6ba70
-    from: carol
-    to: alice
-    label: Rival of
-    color: '#36464e'
-    pattern: dotted
-    arrowType: right
-  - id: 12cdaca5-c623-4e6d-9078-3c0077f4b107
-    from: 84802ade-5f49-4441-bee3-7d35c91654ff
-    to: alice
-    label: some relation
   - id: bb8833cb-2e20-438a-a96a-7952fcee95c3
     from: 979ea3f0-26b4-45ee-982e-60741b323359
     to: a0014ae4-9d21-4f85-a144-4856af240c2a
+    color: '#f39c12'
+    thickness: 1.5
     arrowType: right
   - id: 299e3aa9-59f8-40d4-801f-aff6cd67bc3e
     from: 6111949c-2d28-4bed-8fb7-490477a2500b
     to: 25a44db0-416e-440c-98d3-a0de3ee2cfeb
+    color: '#4a90d9'
+    thickness: 1.5
+    opacity: 1
     arrowType: right
   - id: 052402ff-de78-4097-9abd-67a8e70fe9f9
     from: 6111949c-2d28-4bed-8fb7-490477a2500b
     to: 2fb6ddca-e18d-4a1e-ab38-3ce1847b913a
+    color: '#4a90d9'
+    thickness: 1.5
     arrowType: right
   - id: 04abc09e-82f9-4a51-a2ad-ca4776e582c7
     from: 6111949c-2d28-4bed-8fb7-490477a2500b
     to: cae0904d-9a30-4df8-9f76-09e6459ed447
+    color: '#4a90d9'
+    thickness: 1.5
     arrowType: right
   - id: faa14c94-2aa1-400b-8267-283ab9b10339
     from: 6111949c-2d28-4bed-8fb7-490477a2500b
     to: 6a467d2a-dac0-41e1-88da-10afb4bbf628
+    color: '#4a90d9'
+    thickness: 1.5
     arrowType: right
   - id: 05fc67ff-50f4-4b0c-a602-5c9e636b7a3f
     from: 6111949c-2d28-4bed-8fb7-490477a2500b
     to: 61d8d33e-c1d2-4e2d-bc6c-d7cf65397d71
+    color: '#4a90d9'
+    thickness: 1.5
     arrowType: right
   - id: 3d3bf0db-2ff3-4041-a08d-a78ecb395768
     from: 6111949c-2d28-4bed-8fb7-490477a2500b
     to: 415b6367-0e0e-404d-94d1-7a95a49365c2
+    color: '#4a90d9'
+    thickness: 1.5
     arrowType: right
   - id: ed1f97ef-9b60-4c04-8e62-b9ef04da1146
     from: 6111949c-2d28-4bed-8fb7-490477a2500b
     to: b6e7e5a1-81fc-4c6b-8013-4ad5956b2404
+    color: '#4a90d9'
+    thickness: 1.5
     arrowType: right
   - id: c2d5ea03-5870-4a7e-b48e-0083afd8d1a5
     from: 6111949c-2d28-4bed-8fb7-490477a2500b
     to: f758c5bb-474f-49ec-9588-f075a9e920e7
+    color: '#4a90d9'
+    thickness: 1.5
     arrowType: right
   - id: d9904f0f-6929-4be3-8869-732f2544469a
     from: 5aaae21f-5c4d-4e83-b08e-9f45d8350c91
     to: 4386e33a-a3a4-41b8-b72e-2f2b9ad09c0c
+    color: '#2ecc71'
+    thickness: 1.5
     arrowType: right
   - id: 3537b314-a9ba-4f4b-b53c-af09b38ea94c
     from: 5aaae21f-5c4d-4e83-b08e-9f45d8350c91
     to: 5a122647-9f8d-40fe-90d9-40c18903466f
+    color: '#27ae60'
+    thickness: 1.5
     arrowType: right
   - id: 397324f4-cec8-4ab6-a925-da1139d26f55
     from: 389debfe-7989-4887-b17c-f2f44606cb78
     to: c0cdbbed-0223-4679-a7af-bb704ceb10a6
+    color: '#e91e63'
+    thickness: 1.5
     arrowType: right
   - id: 6dc49fdc-076d-4f22-9231-adb760122562
     from: a0014ae4-9d21-4f85-a144-4856af240c2a
     to: f89c6592-0bbd-460b-8100-4d78731b814e
+    label: Responsável
+    color: '#e67e22'
+    pattern: dashed
     arrowType: right
   - id: fd6bcec3-249b-4114-8425-d351ed214976
     from: 25a44db0-416e-440c-98d3-a0de3ee2cfeb
     to: d1263d3a-c6a6-4084-8909-e522c3face31
+    label: Responsável
+    pattern: dashed
     arrowType: right
   - id: 08051829-eb7c-4292-8c8a-c055f0c5bd5e
     from: 25a44db0-416e-440c-98d3-a0de3ee2cfeb
     to: 0dd955d6-b0de-4b32-8de3-1f157658b46f
+    label: Responsável
+    pattern: dashed
     arrowType: right
   - id: ed269862-fe43-49d6-834c-0c5289761a9f
     from: 25a44db0-416e-440c-98d3-a0de3ee2cfeb
     to: 702c395b-189f-4f6f-935a-61fe85e2ee42
+    label: Responsável
+    pattern: dashed
     arrowType: right
   - id: 0f86f519-26ec-444a-bd84-66f313d02465
     from: 2fb6ddca-e18d-4a1e-ab38-3ce1847b913a
     to: 0dd955d6-b0de-4b32-8de3-1f157658b46f
+    label: Responsável
+    pattern: dashed
     arrowType: right
   - id: 12469c48-c09c-4213-986d-2f19ef0dec6e
     from: 2fb6ddca-e18d-4a1e-ab38-3ce1847b913a
     to: 702c395b-189f-4f6f-935a-61fe85e2ee42
+    label: Responsável
+    pattern: dashed
     arrowType: right
   - id: f94d8dbd-08af-451f-870c-01761bf63f31
     from: cae0904d-9a30-4df8-9f76-09e6459ed447
     to: 0dd955d6-b0de-4b32-8de3-1f157658b46f
+    label: Responsável
+    pattern: dashed
     arrowType: right
   - id: 63fdbbd9-c74a-45a4-9a96-164116cbd198
     from: cae0904d-9a30-4df8-9f76-09e6459ed447
     to: 702c395b-189f-4f6f-935a-61fe85e2ee42
+    label: Responsável
+    pattern: dashed
     arrowType: right
   - id: e9ecaef9-f973-4f1f-bf75-e0be0d618409
     from: 6a467d2a-dac0-41e1-88da-10afb4bbf628
     to: 2d0e4d30-da2a-4fd4-bc40-fba257fbd70c
+    label: Responsável
+    pattern: dashed
     arrowType: right
   - id: b3cb15d3-ae9a-4ade-8d14-cc8b1d48fd1c
     from: 61d8d33e-c1d2-4e2d-bc6c-d7cf65397d71
     to: 2d0e4d30-da2a-4fd4-bc40-fba257fbd70c
+    label: Responsável
+    pattern: dashed
     arrowType: right
   - id: 3ed6bd68-3a13-42d7-87e4-65e94b7df4e1
     from: 415b6367-0e0e-404d-94d1-7a95a49365c2
     to: 07c679a6-97c2-4257-82f9-b944afdedc77
+    label: Responsável
+    pattern: dashed
     arrowType: right
   - id: d11d3ee4-8d99-48a3-a0e3-dc101baae1db
     from: b6e7e5a1-81fc-4c6b-8013-4ad5956b2404
     to: 07c679a6-97c2-4257-82f9-b944afdedc77
+    label: Responsável
+    pattern: dashed
     arrowType: right
   - id: e4d22ef1-fcaa-4f1d-95b8-44e59f886197
     from: f758c5bb-474f-49ec-9588-f075a9e920e7
     to: 07c679a6-97c2-4257-82f9-b944afdedc77
+    label: Responsável
+    pattern: dashed
     arrowType: right
   - id: 3af929d4-ad45-4f7b-b203-17617c9ad077
     from: 4386e33a-a3a4-41b8-b72e-2f2b9ad09c0c
     to: a2aff47d-8114-4cf5-a4ff-152a81d5b8d6
+    label: Responsável
+    color: '#2ecc71'
     arrowType: right
   - id: 7f6d229f-5e00-4d38-96fa-4a1e417ef431
     from: 5a122647-9f8d-40fe-90d9-40c18903466f
     to: 702c395b-189f-4f6f-935a-61fe85e2ee42
+    label: Responsável
+    color: '#2ecc71'
+    pattern: dashed
     arrowType: right
   - id: 6b93a11b-d68a-4544-b395-e82efcceb0ad
     from: c0cdbbed-0223-4679-a7af-bb704ceb10a6
     to: a5dd45e6-1d01-4d85-85d0-4a10ab1f6ab9
+    label: Responsável
+    color: '#e91e63'
+    pattern: dashed
     arrowType: right
   - id: 9055f542-927e-48fa-9d15-eac84af0d613
     from: c0cdbbed-0223-4679-a7af-bb704ceb10a6
     to: 702c395b-189f-4f6f-935a-61fe85e2ee42
+    label: Responsável
+    color: '#e91e63'
+    pattern: dashed
     arrowType: right
   - id: a93e3427-c565-4602-a816-d327b0ca9420
     from: e92bd147-8ebc-48c7-b867-d838db25c3ef
     to: 979ea3f0-26b4-45ee-982e-60741b323359
+    color: '#e67e22'
+    thickness: 2
+    opacity: 1
     arrowType: right
   - id: 90b66768-0fba-469b-935f-32af5d9bcd56
     from: e92bd147-8ebc-48c7-b867-d838db25c3ef
     to: 6111949c-2d28-4bed-8fb7-490477a2500b
+    color: '#004bad'
+    thickness: 2
+    opacity: 1
     arrowType: right
   - id: 36af4a9d-3d57-412e-bf3f-3e5fa8c77d2c
     from: e92bd147-8ebc-48c7-b867-d838db25c3ef
     to: 5aaae21f-5c4d-4e83-b08e-9f45d8350c91
+    color: '#27ae60'
+    thickness: 2
+    opacity: 1
     arrowType: right
   - id: a555c5f2-c5f4-42e8-b546-69c1f328cefb
     from: e92bd147-8ebc-48c7-b867-d838db25c3ef
     to: 389debfe-7989-4887-b17c-f2f44606cb78
+    color: '#ff528b'
+    thickness: 2
+    opacity: 1
     arrowType: right
   - id: 7a09f869-5aae-406b-a89b-26e6244474df
     from: 0cc6579b-af82-4084-8c68-463719efd4ba
     to: 979ea3f0-26b4-45ee-982e-60741b323359
+    color: '#e67e22'
+    thickness: 2
     pattern: dotted
     arrowType: right
   - id: afa4718c-c487-494a-9215-30036b4b0fb3
     from: 0cc6579b-af82-4084-8c68-463719efd4ba
     to: 6111949c-2d28-4bed-8fb7-490477a2500b
+    color: '#4a90d9'
+    thickness: 2
     pattern: dotted
     arrowType: right
   - id: e17c6f32-b6c7-4138-bdd5-b0d0f26f4c28
     from: 0cc6579b-af82-4084-8c68-463719efd4ba
     to: 5aaae21f-5c4d-4e83-b08e-9f45d8350c91
+    color: '#2ecc71'
+    thickness: 2
     pattern: dotted
     arrowType: right
   - id: 1576d2cd-0c0b-4b2a-aa45-a9a5c6ac0d30
     from: 0cc6579b-af82-4084-8c68-463719efd4ba
     to: 389debfe-7989-4887-b17c-f2f44606cb78
+    color: '#e91e63'
+    thickness: 2
     pattern: dotted
     arrowType: right
   - id: 1c17c6e9-d7e5-454c-afee-e77bc3edfcf3
@@ -806,39 +625,57 @@ links:
   - id: 1dc41616-6f3b-4d6d-9873-ad776bb98cb3
     from: e92bd147-8ebc-48c7-b867-d838db25c3ef
     to: 661b896e-c852-462d-beee-7643a9147543
+    thickness: 2
     pattern: dashed
   - id: 05e7afb1-1b47-4a41-9eb1-15b8dff18e8f
     from: 80d0acb1-c11e-4d7c-a2e6-10cfac8733e4
     to: a0014ae4-9d21-4f85-a144-4856af240c2a
+    color: '#607d8b'
     pattern: dotted
   - id: 0ca1f0d7-784a-4390-bf5e-ac3eb188ac76
     from: d9f9f1fc-8818-4e7f-be08-7db4ba55c9af
     to: a0014ae4-9d21-4f85-a144-4856af240c2a
+    color: '#607d8b'
     pattern: dotted
   - id: a1a85831-7681-484b-856c-9c7e499c11c4
     from: cb17d1d5-6559-4975-819b-f49cba0f2db8
     to: 2fb6ddca-e18d-4a1e-ab38-3ce1847b913a
+    color: '#607d8b'
     pattern: dotted
   - id: 792d3023-da32-4127-8217-df8689759923
     from: abcde33b-69ac-49e8-b564-a245844bf6ba
     to: 2fb6ddca-e18d-4a1e-ab38-3ce1847b913a
+    color: '#607d8b'
     pattern: dotted
   - id: dc046cdd-54dd-48cc-a398-2a462b59cc18
     from: f582f8c7-d401-4939-8c87-9b022979b64f
     to: 2fb6ddca-e18d-4a1e-ab38-3ce1847b913a
+    color: '#607d8b'
     pattern: dotted
   - id: 68e49dd1-491f-41cd-a9b3-21c62f625eaf
     from: 8a60ec6e-0c84-42cd-83a9-55c1c2bcf5b8
     to: 2fb6ddca-e18d-4a1e-ab38-3ce1847b913a
+    color: '#607d8b'
     pattern: dotted
   - id: 180604d0-76d4-458a-a7cc-a3a495b40808
     from: cb17d1d5-6559-4975-819b-f49cba0f2db8
     to: b6e7e5a1-81fc-4c6b-8013-4ad5956b2404
+    color: '#607d8b'
     pattern: dotted
   - id: f285cee3-0c22-45a8-8aec-641bb614fe11
     from: 8a60ec6e-0c84-42cd-83a9-55c1c2bcf5b8
     to: cae0904d-9a30-4df8-9f76-09e6459ed447
+    color: '#607d8b'
     pattern: dotted
+  - id: 7c729c19-167b-4d80-ae0f-1312f485031f
+    from: 661b896e-c852-462d-beee-7643a9147543
+    to: 0cc6579b-af82-4084-8c68-463719efd4ba
+  - id: 0184b272-5679-4c44-b112-0f96b314dad5
+    from: e92bd147-8ebc-48c7-b867-d838db25c3ef
+    to: 0cc6579b-af82-4084-8c68-463719efd4ba
+    color: '#607d8b'
+    thickness: 2
+    pattern: dashed
 assets:
   - id: asset-report-2024
     label: 2024 Annual Report
